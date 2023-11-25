@@ -1,0 +1,20 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body style="display: flex; flex-direction: column; align-items: center; background-color: rgb(213, 213, 213);">
+<h2>Upload Form</h2>
+<form method="post" action="/upload" enctype="multipart/form-data">
+    <label for="note_name_input">Name:</label><br>
+    <input style="width: 100%;" type="text" id="note_name_input" name="note_name"><br><br>
+    <label for="note_input">Note:</label><br>
+    <textarea id="note_input" name="note" rows="4" cols="50"></textarea><br><br>
+    <button style="background-color: white; border:none; border-radius: 15px; padding: 10px;">Upload</button>
+</form>
+</body>
+</html>
